@@ -1,5 +1,9 @@
 # 2-by-2-rubik-cube-solver
 
+Libaries used: unittest
+
+Tools used: python (IDLE)
+
 * Naming convention is explained in details in rubik.py. Refer the following pictures to understand better. 
 
     * Naming of 6 surfaces: 
