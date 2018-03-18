@@ -101,7 +101,7 @@ def perm_inverse(p):
     n = len(p)
     q = [0]*n
     for i in xrange(n):
-        q[p[i]] = i
+        q[p[i]] = i                 # if p[i] = j then inverse of p should map j to i i.e. q[j] = i => q[p[i]] = i
     return tuple(q)
 
 def perm_to_string(p):
